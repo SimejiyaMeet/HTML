@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>
+            Gradient
+        </title>
+        <style>
+            .main{
+                display: flex;
+            }
+            #gradient{
+                height: 500px;
+                width: 500px;
+                margin: 5px;
+            }
+
+            .radial{
+                background-image: radial-gradient(purple,Pink,blue);
+            }
+
+            .conic{
+                background-image: conic-gradient(purple,Pink,blue);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+        <div class="radial" id="gradient"><h1>radial-gradient</h1></div>
+        <div class="conic" id="gradient"><h1>conic-gradient</h1></div>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,129 @@
+<html>
+
+<head>
+    <title>
+        Admission form
+    </title>
+</head>
+<style>
+    /* table{ */
+    /* text-align: center; */
+    /* margin: auto; */
+    /* } */
+</style>
+
+<body>
+    <h1>Speed computers</h1>
+    <hr>
+    <center><img src="sc logo.png" alt="not found" style="height:50px;">
+        <br>
+        <h2>Admission Form</h2>
+    </center>
+    <table align="center">
+        <tr>
+            <td>First name:
+            <td><input type="text" autofocus></td>
+            </td>
+
+            <td>Last name:
+            <td><input type="text" autocomplete="on"></td>
+            </td>
+        </tr>
+
+        <tr>
+            <td>fathers name:
+            <td> <input type="text" required></td>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Address:</td>
+            <td><textarea></textarea></td>
+        </tr>
+
+        <tr>
+            <td>Email:
+            <td><input type="text" placeholder="Enter Email"></td>
+            </td>
+            <td>Password:</td>
+            <td><input type="password" required></td>
+        </tr>
+
+        <tr>
+            <td>Student no.:</td>
+            <td><input type="text" min="5" max="15"></td>
+            <td>Parents no.:</td>
+            <td><input type="text" maxlength="10"></td>
+        </tr>
+
+        <tr>
+            <td>DOB:</td>
+            <td><input type="date" min="1995-01-15" max="2025-01-01">
+            </td>
+            <td>Gender
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+            </td>
+        </tr>
+        <tr>
+            <td>School/Collage:</td>
+            <td><input type="text">
+            </td>
+
+            <td>Year:</td>
+            <td><input type="text">
+            </td>
+        </tr>
+
+        <tr>
+            <td>City:
+            <td><select>
+                    <option value="Select City"></option>
+                    <option value="Rajkot"></option>
+                    <option value="Ahemdabad"></option>
+                    <option value="Surat"></option>
+                </select></td>
+            </td>
+
+
+            <td>Designation:</td>
+            <td><input type="text"></td>
+
+        <tr>
+            <td>Course Name:</td>
+            <td><input list="course" name="course">
+                <datalist id="course">
+                    <option value="CCC">
+                    <option value="GRAPHIC">
+                    <option value="WEB DEV">
+                    <option value="PROGRAMMING">
+                    <option value="TALLY & MIRACLE">
+                    </datalist>
+                    </td>
+            <td>Batch time:</td>
+            <td><input type="text">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Course Duration:</td>
+            <td><input type="text">
+            </td>
+            <td>Attached Document No:</td>
+            <td><input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>Select Image:</td>
+            <td><input type="file" multiple></td>
+        </tr>
+        <tr>
+            <td colspan="4" align="center"><br>
+                <input type="Submit" value="submit" formtarget="_BLANK">
+                <input type="Reset" value="reset">
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
